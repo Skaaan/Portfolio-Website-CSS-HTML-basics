@@ -1,0 +1,245 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.main {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#toTop {
+    margin: 0;
+    color: transparent;
+}
+
+nav {
+    background-color: rgba(233, 133, 180, 0.637);
+    width: 70%;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.navbar-brand {
+    position: relative;
+    left: 20%;
+    font-size: 2rem;
+}
+
+.navbar-nav {
+    position: relative;
+    left: 35%;
+    font-size: 1.5rem;
+}
+
+
+#introParagraph {
+    margin-top: auto;
+
+}
+
+#introParagraph p {
+    margin-top: 8rem;
+    font-size: 35px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.projectsSection {
+    margin: 5rem 2rem 3rem 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+h2 {
+    position: relative;
+    left: 15rem;
+    bottom: 1rem;
+    margin: 0;
+}
+
+#project1 {
+    background-image: url("schoolmanagingsystem.png");
+}
+
+#project2 {
+    background-image: url("talkinweb.png");
+}
+
+#project3 {
+    background-image: url("travel4student.png");
+}
+
+
+#toProjects,
+#toEducation,
+#toContact {
+    border-top: 5px solid rgb(255, 0, 255);
+    border-radius: 3px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+#toContact {
+    margin-top: 5rem;
+}
+
+.singleProjectSection {
+    background-color: rgba(233, 133, 180, 0.637);
+    border-radius: 3rem;
+    width: 25rem;
+    height: 25rem;
+    margin: 1rem;
+}
+
+.singleProjectSection h3 {
+    position: relative;
+    top: 0.8rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.singleProjectSection ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.singleProjectSection ul>a {
+    margin: auto;
+}
+
+.singleProjectSection p {
+    margin-top: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+#education2018 {
+    position: relative;
+    left: 30%;
+}
+
+#education2020 {
+    position: relative;
+    left: 40%;
+}
+
+#education2022 {
+    position: relative;
+    left: 50%;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.footerSection {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 0.7rem;
+}
+
+.footerLinks {
+    font-size: 1.5rem;
+    margin: 0rem 10rem 4rem 10rem;
+}
+
+.socia {
+    padding-left: 10rem;
+}
+
+
+@media (max-width: 1200px) {
+    .projectsSection {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2rem;
+        padding: 5rem;
+    }
+
+    .singleProjectSection {
+        width: 100%;
+        height: 100%;
+    }
+
+    .singleProjectSection ul>a {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    #education2018 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        left: 10%;
+    }
+
+    #education2020 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        left: 13%;
+    }
+
+    #education2022 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        left: 16%;
+    }
+
+    .footerLinks {
+        font-size: 1.5rem;
+        margin: 3rem 1rem 3rem 1rem;
+    }
+
+}
+
+
+@media (max-width: 550px) {
+    .singleProjectSection ul>a {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        width: 3rem;
+        font-size: 100%;
+    }
+
+    #education2018 {
+        display: block;
+    }
+
+    #education2020 {
+        display: block;
+    }
+
+    #education2022 {
+        display: block;
+    }
+
+
+}
